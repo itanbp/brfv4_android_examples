@@ -56,7 +56,7 @@ public class color_libs extends BRFBasicJavaExample {
 
 				// Now just draw all the triangles of the mouth in a certain color.
 
-				draw.fillTriangles(	face.vertices, libTriangles, false, 0xff7900, 0.8);
+				draw.fillTriangles(	face.vertices, libTriangles, false, 0x00ff79, 0.8);
 			}
 		}
 	}
@@ -82,12 +82,12 @@ public class color_libs extends BRFBasicJavaExample {
 			58, 59, 67,
 			58, 66, 67,
 			59, 60, 67
-			//,					// mouth whole
-			// 60, 61, 67,
-			// 61, 62, 66,
-			// 61, 66, 67,
-			// 62, 63, 66,
-			// 63, 64, 65,
-			// 63, 65, 66
+//			,					// mouth whole
+//			 60, 61, 67,
+//			 61, 62, 66,
+//			 61, 66, 67,
+//			 62, 63, 66,
+//			 63, 64, 65,
+//			 63, 65, 66
 	};
 }
