@@ -16,7 +16,7 @@ import android.widget.Toast;
 
 import com.tastenkunst.brfv4.brfv4_android_examples.R;
 
-public class CameraPermissionActivity extends AppCompatActivity {
+public abstract class CameraPermissionActivity extends AppCompatActivity {
 
 	private static final String TAG						 = "CameraPermissionActivity";
 	private static final int	REQUEST_CAMERA_PERMISSION   = 1;
