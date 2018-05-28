@@ -51,7 +51,7 @@ public class BRFv4View extends FrameLayout {
 //
 		// "+++ basic - face tracking +++"
 
-		_example = new track_single_face(getContext());			// "basic - face tracking - track single face"
+//		_example = new track_single_face(getContext());			// "basic - face tracking - track single face"
 //		_example = new track_multiple_faces(getContext());		// "basic - face tracking - track multiple faces"
 //		_example = new candide_overlay(getContext());			// "basic - face tracking - candide overlay"
 
@@ -67,7 +67,7 @@ public class BRFv4View extends FrameLayout {
 //		_example = new smile_detection(getContext());			// "intermediate - face tracking - smile detection"
 //		_example = new yawn_detection(getContext());			// "intermediate - face tracking - yawn detection"
 //		_example = new png_mask_overlay();						// "intermediate - face tracking - png/mask overlay"	- not implemented
-//		_example = new color_libs(getContext());				// "intermediate - face tracking - color libs"
+		_example = new color_libs(getContext());				// "intermediate - face tracking - color libs"
 
 		// "+++ advanced - face tracking +++"
 
